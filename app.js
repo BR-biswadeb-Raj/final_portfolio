@@ -82,19 +82,19 @@ function prv(){
     
     {
         link:"https://br-biswadeb-raj.github.io/Counter-js/",
-        images:"images/post-1.png"
+        images:"images/item-1.jpeg"
     },
     {
         link:"https://br-biswadeb-raj.github.io/simple_portfoile/",
-        images:"images/post-2.png"
+        images:"images/item-2.jpeg"
     },
     {
         link:"https://br-biswadeb-raj.github.io/Test-project1/",
-        images:"images/post-3.png"
+        images:"images/item-3.jpeg"
     },
     {
         link:"https://br-biswadeb-raj.github.io/qr-code-component-main/",
-        images:"images/post-4.png"
+        images:"images/item-4.jpeg"
     },
     {   link:"",
         images:"images/post-5.jpg"
@@ -114,7 +114,7 @@ window.addEventListener("DOMContentLoaded",()=>{
         createimg.innerHTML=`
        
         <div class="imsge-item">
-        <a href="${imagitems.link}"> <img src="${imagitems.images}" alt="item1"></a>
+        <a href="${imagitems.link}"> <img src="${imagitems.images}" alt="project_link"></a>
         </div>
 
         `;
